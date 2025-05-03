@@ -1,0 +1,42 @@
+<form [formGroup]="formGroup" (ngSubmit)="onSubmit()" class="form-group">
+    <div class="form-icon"> 
+      <img src="" /> 
+      Duração média por Ep 35 minutos 
+    </div>
+  
+    <h3>Lista de Séries</h3>
+  
+    <div class="radio-wrapper">
+      <input type="radio" id="shortEp" name="hour" value="shortEp" formControlName="hour"/>
+      <label for="shortEp">Meu Top 5</label>
+      <span>20/30 minutos</span>
+    </div>
+  
+    <div class="radio-wrapper">
+      <input type="radio" id="mediumEp" name="hour" value="mediumEp" formControlName="hour"/>
+      <label for="mediumEp">Séries Comédia</label>
+      <span>50/60 minutos</span>
+    </div>
+  
+    <div class="radio-wrapper">
+      <input type="radio" id="bigEp" name="hour" value="bigEp" formControlName="hour"/>
+      <label for="bigEp">Séries gerais</label>
+      <span>60+ minutos</span>
+    </div>
+  
+    <div class="checkbox-wrapper">
+        <div class="checkbox">
+            <input type="checkbox" id="showOther" name="showOther"  formControlName="showOther"/>
+
+            <label for="showOther">Exibir outra categoria</label>
+        </div>
+        <span>Resultados Encontrados: {{ results.length }}</span>
+    </div>
+  
+    <div class="btn-wrapper">
+        
+      <button class="btn btn-primary" type="submit">Encontrar Séries</button>
+      <button class="btn btn-secondary" type="button" (click)="onClean()">Limpar</button>
+    </div>
+  </form>
+  
