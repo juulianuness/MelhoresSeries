@@ -1,15 +1,152 @@
 {
-    "current_country_id": "1",
-    "location": [
-      {
-        "id": "comedia",
-        "title": "Moder Family",
-        "description": "Serie sobre uma familia moderna",
-        "capa": "https://pt.wikipedia.org/wiki/Modern_Family_%281.%C2%AA_temporada%29#/media/Ficheiro:Modern_Family_temporada_1.jpg",
-        "schedules": [
-          { "hour": "00:30" }
-        ]
-      }
-    ]
-  }
-  
+    "countries": [
+        {
+            "current_country_id": "1",
+            "location": [
+                {
+                    "id": "1",
+                    "title": "Moder Family",
+                    "description": "Serie sobre uma familia moderna",
+                    "capa": "https://pt.wikipedia.org/wiki/Modern_Family_%281.%C2%AA_temporada%29#/media/Ficheiro:Modern_Family_temporada_1.jpg",
+                    "schedules": [
+                        {
+                            "hour": "00:30"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "current_country_id": "2",
+            "location": [
+                {
+                    "id": "2",
+                    "title": "The Office",
+                    "description": "Serie sobre um escritorio ",
+                    "capa": "",
+                    "schedules": [
+                        {
+                            "hour": "00:30"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "current_country_id": "3",
+            "location": [
+                {
+                    "id": "3",
+                    "title": "2 Broke Girls",
+                    "description": "Serie sobre 2 meninas",
+                    "capa": "",
+                    "schedules": [
+                        {
+                            "hour": "00:30"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "current_country_id": "4",
+            "location": [
+                {
+                    "id": "3",
+                    "title": "Friends",
+                    "description": "Serie sobre amizade",
+                    "capa": "",
+                    "schedules": [
+                        {
+                            "hour": "00:30"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "current_country_id": "5",
+            "location": [
+                {
+                    "id": "3",
+                    "title": "broklin 99",
+                    "description": "Serie sobre um departamento de policia",
+                    "capa": "",
+                    "schedules": [
+                        {
+                            "hour": "00:30"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "current_country_id": "6",
+            "location": [
+                {
+                    "id": "3",
+                    "title": "the big bang teory",
+                    "description": "Serie sobre um grupo de amigos cientistas",
+                    "capa": "",
+                    "schedules": [
+                        {
+                            "hour": "00:30"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "current_country_id": "7",
+            "location": [
+                {
+                    "id": "3",
+                    "title": "how i met your mother",
+                    "description": "Serie sobre relacionamentos",
+                    "capa": "",
+                    "schedules": [
+                        {
+                            "hour": "00:30"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "current_country_id": "8",
+            "location": [
+                {
+                    "id": "3",
+                    "title": "Greys Anatomy",
+                    "description": "Serie sobre hospital e medicina",
+                    "capa": "",
+                    "schedules": [
+                        {
+                            "hour": "00:30"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "current_country_id": "9",
+            "location": [
+                {
+                    "id": "3",
+                    "title": "This is Us",
+                    "description": "Serie sobre familia",
+                    "capa": "",
+                    "schedules": [
+                        {
+                            "hour": "00:50"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "total": 10,
+        "success": true
+    }
+}
