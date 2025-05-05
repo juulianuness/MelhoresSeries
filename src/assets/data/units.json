@@ -1,0 +1,15 @@
+{
+    "current_country_id": "1",
+    "location": [
+      {
+        "id": "comedia",
+        "title": "Moder Family",
+        "description": "Serie sobre uma familia moderna",
+        "capa": "https://pt.wikipedia.org/wiki/Modern_Family_%281.%C2%AA_temporada%29#/media/Ficheiro:Modern_Family_temporada_1.jpg",
+        "schedules": [
+          { "hour": "00:30" }
+        ]
+      }
+    ]
+  }
+  

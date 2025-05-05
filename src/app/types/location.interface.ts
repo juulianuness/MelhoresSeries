@@ -1,11 +1,11 @@
 export interface Location {
-    id: string;
+    id: number;
     title: string;
     description: string;
-    content: string;
+    
     schedules: Schedule[];
 
 }
 interface Schedule {
-    hour: string;
+    hour: number;
 }
